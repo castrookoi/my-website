@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="stylez.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+<!-------------- Header----------------->
+        
+<section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a href="index.html" target="_parent">HOME</a></li>
+                                <li><a href="about.html">ABOUT</a></li>
+                                <li><a href="course.html">COURSE</a></li>
+                                <li><a href="blog.html">BLOG</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Programs for 2022</h1>
+ </section>   
+
+<!-------------- Blog Page Content----------------->
+ <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2> our Certificate & Online Programs for 2022</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pallentesque aliquet turpis nulla, eleifend faucibust est sollicitudin ut, Meacenas ut vendatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fementum. Donec eget felis dolor. Supendisse condimentum vestibulum ex ac cursus.</p>
+            <br> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quae fugiat quasi exercitationem quisquam, amet at reiciendis tempora voluptate deserunt perferendis sapiente! Blanditiis officia, unde dolorem doloribus sequi eum eius? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias officiis aspernatur, sint cumque minima beatae labore veniam rem accusamus, porro eligendi optio ratione libero eos, dicta quibusdam nisi. Consectetur, hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quasi deleniti distinctio molestias, alias quam nobis. Numquam, consectetur ratione dolore repellat quidem corporis odit. Sint eligendi minima reprehenderit ratione illum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure aspernatur, similique iste numquam natus maxime debitis mollitia, inventore explicabo ratione temporibus itaque impedit! Adipisci nesciunt dolore optio nihil sint. Dignissimos.lorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur possimus similique ipsam omnis excepturi numquam obcaecati eaque perspiciatis architecto eius dolorem debitis ab harum ullam voluptate repellendus placeat, ducimus officia?</p> 
+            <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, distinctio? Alias reprehenderit veniam sequi distinctio cupiditate provident hic ratione, facilis quibusdam officia nihil aliquam possimus totam id culpa autem deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sunt, libero eius vel doloribus quibusdam. Magni officia rerum ab, consequatur dicta natus sequi vel consequuntur aspernatur. Voluptas non nam beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque dolore possimus voluptatum est, ullam accusantium? A aliquid voluptas, unde in facere dolorem rerum rem corrupti itaque autem laudantium pariatur?</p>
+
+            <div class="comment-box">
+                <h3> Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Coment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="blog-right">
+            <h3> Post Categories</h3>
+            
+            <div>
+                <span> Business Analytics</span>
+                <span>21</span>
+            </div>
+
+            <div>
+                <span> Data Science</span>
+                <span>21</span>
+            </div>
+
+            <div>
+                <span> Machine Learning</span>
+                <span>21</span>
+            </div>
+
+            <div>
+                <span> Computer Science</span>
+                <span>21</span>
+            </div>
+
+            <div>
+                <span> Autocad</span>
+                <span>21</span>
+            </div>
+
+            <div>
+                <span> Journalism</span>
+                <span>22</span>
+            </div>
+
+            <div>
+                <span> Comemerce</span>
+                <span>23</span>
+            </div>
+            
+    </div>
+ </section>
+
+
+<!-------------- Footer----------------->
+
+<section class="footer">
+        <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pallentesque aliquet turpis nulla, eleifend faucibus est <br> sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+        <p>Made With   <i class="fa fa-heart-o"></i> By Easy Tutorials </p>
+</section>
+
+
+
+
+
+
+
+
+                <!--javaScripting for Toggle Menu-->
+                <script>
+
+
+                    var navLinks = document.getElementById("navLinks");
+
+                    function showMenu(){
+                        navLinks.style.right = "0"
+                    }
+
+                    function hideMenu(){
+                        navLinks.style.right = "-200px"
+                    }
+                </script>
+
+    </body>
+</html>
+
