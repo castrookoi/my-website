@@ -498,6 +498,7 @@ flex-basis: 32%;
 
 .location iframe{
     width: 100%;
+     overflow: hidden;
 }
 
 .contact-us{
