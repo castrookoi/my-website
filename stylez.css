@@ -486,6 +486,8 @@ flex-basis: 32%;
 @media (max-width: 700px){
     .sub-header h1{
         font-size: 24px;
+        .location{
+    overflow-x: hidden;
     }
 }
 
@@ -494,6 +496,7 @@ flex-basis: 32%;
     width: 80%;
     margin: auto;
     padding: 80px 0;
+    overflow-x: hidden;
 }
 
 .location iframe{
@@ -504,17 +507,20 @@ flex-basis: 32%;
 .contact-us{
     width: 80%;
     margin: auto;
+    overflow-x: hidden;
 }
 
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
+    overflow-x: hidden;
 }
 
 .contact-col div{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    overflow-x: hidden;
 }
 
 .contact-col div .fa{
@@ -522,10 +528,12 @@ flex-basis: 32%;
     color: #f44336;  
     margin: 10px;
     margin-right: 30px;
+    overflow-x: hidden;
 }
 
 .contact-col div p{
     padding: 0;
+    overflow-x: hidden;
 }
 
 .contact-col div h5{
